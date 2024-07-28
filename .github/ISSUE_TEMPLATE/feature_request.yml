@@ -1,0 +1,61 @@
+name: Feature Request Form
+description: File a feature request
+title: "[Feature]: <title>"
+labels: ["enhancement"]
+body:
+  - type: input
+    id: describe-feature
+    attributes:
+      label: Describe the feature or solution you'd like
+      description: A clear and concise description of what you want to happen.
+      placeholder: 欲しい機能や解決してほしい課題について簡潔に書く
+    validations:
+      required: true
+  - type: textarea
+    id: reason-purpose
+    attributes:
+      label: The purposes or reasons
+      description: Detailed descriptions of the purposes or reasons you want the feature or solution.
+      placeholder: その機能を実装する目的・理由、その課題を解決することで何が得られるか
+    validations:
+      required: true
+  - type: textarea
+    id: as-is
+    attributes:
+      label: As Is
+      description: Descriptions of the current state.
+      placeholder: 現在の状態について記述
+    validations:
+      required: false
+  - type: textarea
+    id: to-be
+    attributes:
+      label: To Be
+      description: Descriptions of the ideal state. It is a condition for completing the task.
+      placeholder: 理想の状態について記述、タスク完了の条件にもなる
+    validations:
+      required: false
+  - type: textarea
+    id: action
+    attributes:
+      label: Action
+      description: Descriptions of the detailed actions for improvement.
+      placeholder: 改善のための詳細なアクションについて記述
+    validations:
+      required: false
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Descriptions of the problem currently known.
+      placeholder: 現状わかっている課題について記述
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context about the feature or solution here.
+      placeholder: その他追記事項
+    validations:
+      required: false

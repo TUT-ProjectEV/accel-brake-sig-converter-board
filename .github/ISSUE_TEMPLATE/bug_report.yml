@@ -1,0 +1,54 @@
+name: Bug Report Form
+description: File a bug report
+title: "[Bug]: <title>"
+labels: ["bug"]
+body:
+  - type: input
+    id: describe-bug
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: バグについての詳細
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: IDE, Platform, Library... that you are using.
+      placeholder: |
+        バグが発生するときの環境
+        Develop: VScode
+        Platform: Arduino
+        Library: MsTimer2_ver1.1
+    validations:
+      required: false
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        バグの再現方法を誰がやっても再現できるように書く
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: false
+  - type: input
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: タスク完了の条件を明確に簡潔に書く
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+      placeholder: 現状わかっていることや改善のためのアクション、その他追記事項があれば書く
+    validations:
+      required: false
