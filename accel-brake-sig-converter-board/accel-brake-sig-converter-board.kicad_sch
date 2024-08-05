@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "b61bdbac-a671-44ff-8f7c-190c23ffbe3f")
 	(paper "A4")
+	(title_block
+		(title "accel-brake-sig-converter-board")
+		(date "2024-08-06")
+		(rev "v1.0")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
