@@ -2794,6 +2794,162 @@
 				)
 			)
 		)
+		(symbol "ProjectEV_Resistor:RT1206BRC07250RL"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RT1206BRC07250RL"
+				(at 11.43 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ProjectEV_Resistor:RT1206BRC07250RL"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "3216"
+				(at 3.81 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser番号" "603-RT1206BRC07250RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RT1206BRC07250RL_0_1"
+				(rectangle
+					(start -0.508 1.27)
+					(end 0.508 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RT1206BRC07250RL_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ProjectEV_Resistor:R_1608M"
 			(pin_numbers hide)
 			(pin_names
@@ -3708,16 +3864,52 @@
 		)
 	)
 	(junction
+		(at 279.4 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06ad5d51-c120-4b7a-8237-dad0ec3a331f")
+	)
+	(junction
+		(at 264.16 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06f79f65-427a-4a78-9304-ba1cba905121")
+	)
+	(junction
 		(at 116.84 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "090422e2-ff53-4398-814a-75f5a9109ff0")
 	)
 	(junction
+		(at 304.8 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b229077-6074-43f2-b3b7-845007ad93f4")
+	)
+	(junction
+		(at 264.16 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1db56ba4-39a7-4d79-a059-55ed01022ef7")
+	)
+	(junction
 		(at 157.48 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f9f4b7a-0c27-491f-b7fa-a615dead513c")
+	)
+	(junction
+		(at 264.16 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25877bbe-f425-4fdb-b1ff-0bc1426154a0")
+	)
+	(junction
+		(at 243.84 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25e9a01a-a40a-498b-9ebf-255aaf71babe")
 	)
 	(junction
 		(at 116.84 88.9)
@@ -3742,6 +3934,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "300ed601-3a22-47c2-b568-ac8e54c2a7d7")
+	)
+	(junction
+		(at 243.84 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "343934d4-92a8-4f80-912f-c577b1ee1b4d")
 	)
 	(junction
 		(at 167.64 38.1)
@@ -3786,10 +3984,22 @@
 		(uuid "5b036644-9c05-4832-ae36-f210a7ee1fdd")
 	)
 	(junction
+		(at 243.84 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b6a6d6d-12ab-44d4-a1e4-5b71cd2d494b")
+	)
+	(junction
 		(at 294.64 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61a9fdbb-853c-4a25-8be6-8dde09c8720a")
+	)
+	(junction
+		(at 294.64 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "640c94ae-2724-41a7-a00c-c8853e52116c")
 	)
 	(junction
 		(at 167.64 60.96)
@@ -3802,6 +4012,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75e76d02-ff87-4bbf-9f9c-f7e1f342e5a1")
+	)
+	(junction
+		(at 279.4 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "762b68a9-71e2-49d4-b688-499bc951c755")
+	)
+	(junction
+		(at 370.84 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76a5f1ac-c18a-4031-bde2-a8c954ff26cd")
 	)
 	(junction
 		(at 142.24 162.56)
@@ -3828,6 +4050,12 @@
 		(uuid "8756fb4b-3ac0-4de6-83f6-24cac82abee5")
 	)
 	(junction
+		(at 360.68 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fa2d8ce-a5dd-4672-82ff-793ea809bac3")
+	)
+	(junction
 		(at 104.14 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3840,10 +4068,22 @@
 		(uuid "9433b81f-88fb-4772-9921-5c7d94a4cfb6")
 	)
 	(junction
+		(at 259.08 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ab5577b-720f-4309-97d0-130720d88348")
+	)
+	(junction
 		(at 259.08 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fd6fa15-1228-4437-b6d8-d463410cccd4")
+	)
+	(junction
+		(at 294.64 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a11a0015-2d56-4239-85fd-71d280c3b8d8")
 	)
 	(junction
 		(at 142.24 111.76)
@@ -3856,6 +4096,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b472433a-40b6-4fa4-bac0-0ca5f00cf6fa")
+	)
+	(junction
+		(at 360.68 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bace6c39-fc3b-406c-97a5-9afa89cf985f")
 	)
 	(junction
 		(at 304.8 45.72)
@@ -3888,6 +4134,12 @@
 		(uuid "c4ab8011-e4da-4a33-bb04-464832f7892f")
 	)
 	(junction
+		(at 370.84 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c679dd00-0a86-4f8b-a26b-7394d13d3402")
+	)
+	(junction
 		(at 177.8 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3904,6 +4156,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1ba3180-25ee-4c46-a975-e24221f45e35")
+	)
+	(junction
+		(at 259.08 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2c56cf0-ff65-4d37-aa65-9a97bd6725e2")
 	)
 	(junction
 		(at 304.8 66.04)
@@ -3930,10 +4188,28 @@
 		(uuid "deb623ce-9508-4839-a9e4-a9fbf16ae6a1")
 	)
 	(junction
+		(at 360.68 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df03fddb-8b94-4ee4-b5c5-4cf8abaff4f5")
+	)
+	(junction
+		(at 294.64 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1d8af03-c461-4bb2-8c27-f132e2b994d4")
+	)
+	(junction
 		(at 142.24 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e279a344-caa5-4b39-9bbe-a08d2bc354fb")
+	)
+	(junction
+		(at 304.8 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4008710-cc07-41ed-bf64-840612077d22")
 	)
 	(junction
 		(at 127 88.9)
@@ -3942,16 +4218,46 @@
 		(uuid "e571f163-8d87-47f6-b7fb-2c1ca8bac246")
 	)
 	(junction
+		(at 294.64 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e62c6433-2a77-491e-b7d9-4201c6d30cc2")
+	)
+	(junction
+		(at 304.8 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea9b74e5-0803-45c2-bae7-c1c275fa19e6")
+	)
+	(junction
 		(at 157.48 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eac22ea4-29da-4b58-a016-ac7ba883d98f")
 	)
 	(junction
+		(at 243.84 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ead70b01-0086-483c-8680-9b38543f419e")
+	)
+	(junction
+		(at 279.4 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec271e32-bcaa-4324-a635-0198c13e2cae")
+	)
+	(junction
 		(at 294.64 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3e600f8-f021-4d59-b762-a62c6b9685d0")
+	)
+	(junction
+		(at 370.84 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6bb46cd-9dbd-4656-bd2e-8ac3d0c8acbd")
 	)
 	(junction
 		(at 167.64 162.56)
@@ -3970,6 +4276,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc54d4eb-2998-4092-adae-054f58f15a00")
+	)
+	(junction
+		(at 304.8 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe5fcb6a-d2af-40aa-8553-6b2336ce3a4e")
 	)
 	(no_connect
 		(at 134.62 48.26)
@@ -4004,6 +4316,46 @@
 			(type default)
 		)
 		(uuid "0016124d-b8ba-492c-a095-f5269321bc4e")
+	)
+	(wire
+		(pts
+			(xy 373.38 91.44) (xy 375.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027fca3f-3aff-41fc-ba47-f2f310c8fbd8")
+	)
+	(wire
+		(pts
+			(xy 233.68 76.2) (xy 236.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f68de8-df61-495f-997a-754d8a0f0566")
+	)
+	(wire
+		(pts
+			(xy 279.4 48.26) (xy 276.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c881ce-2d72-48bf-ae8f-8610124ecd89")
+	)
+	(wire
+		(pts
+			(xy 264.16 88.9) (xy 261.62 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0707014b-dfa5-4193-aa8c-a71d1fa875a4")
 	)
 	(wire
 		(pts
@@ -4065,6 +4417,26 @@
 		)
 		(uuid "0a7686b2-c79e-43ed-b88e-4ab10befebc0")
 	)
+	(polyline
+		(pts
+			(xy 401.32 134.62) (xy 405.13 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aeccec9-af2f-4190-89c4-7c8cb000bffc")
+	)
+	(wire
+		(pts
+			(xy 38.1 29.21) (xy 38.1 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca8a20d-3d4d-48ed-a196-64123c557cc0")
+	)
 	(wire
 		(pts
 			(xy 127 99.06) (xy 116.84 99.06)
@@ -4074,6 +4446,16 @@
 			(type default)
 		)
 		(uuid "0cf8eca1-d754-4580-b2fe-e1dc5565cc48")
+	)
+	(wire
+		(pts
+			(xy 284.48 116.84) (xy 294.64 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1da09d-3f46-449a-9399-d96f2fba1d1e")
 	)
 	(wire
 		(pts
@@ -4107,6 +4489,26 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 154.94) (xy 284.48 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "135de730-1472-4268-b022-7f781648a714")
+	)
+	(wire
+		(pts
+			(xy 370.84 101.6) (xy 370.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13750711-5043-4592-abb8-0801189dbb13")
+	)
+	(wire
+		(pts
 			(xy 167.64 111.76) (xy 170.18 111.76)
 		)
 		(stroke
@@ -4137,6 +4539,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 43.18) (xy 360.68 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170dec77-877f-459c-af13-48fd6e56a66e")
+	)
+	(wire
+		(pts
 			(xy 142.24 109.22) (xy 142.24 111.76)
 		)
 		(stroke
@@ -4144,6 +4556,26 @@
 			(type default)
 		)
 		(uuid "17151b26-70c5-416a-a8cf-70833a2769e8")
+	)
+	(wire
+		(pts
+			(xy 360.68 93.98) (xy 360.68 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1867a6f6-11fa-4b4b-bba2-251753a42299")
+	)
+	(wire
+		(pts
+			(xy 279.4 38.1) (xy 279.4 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18aa8b88-b590-414f-9c98-5b147acdab9d")
 	)
 	(wire
 		(pts
@@ -4165,6 +4597,26 @@
 		)
 		(uuid "19d5e199-36b7-4427-ac88-f189b6aa7c00")
 	)
+	(polyline
+		(pts
+			(xy 401.32 140.97) (xy 402.59 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b69d7f3-3a07-46e0-bc32-b10b34460ad7")
+	)
+	(wire
+		(pts
+			(xy 358.14 93.98) (xy 360.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6c8322-0ef9-48b4-89d9-8ad82ac20935")
+	)
 	(wire
 		(pts
 			(xy 139.7 162.56) (xy 142.24 162.56)
@@ -4174,6 +4626,16 @@
 			(type default)
 		)
 		(uuid "1cd18f0e-d614-4420-8dff-dddd4c30d9a6")
+	)
+	(polyline
+		(pts
+			(xy 383.54 144.78) (xy 398.78 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d90c4b4-6270-4758-8181-011c278c78c0")
 	)
 	(wire
 		(pts
@@ -4207,6 +4669,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 99.06) (xy 276.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed88e42-daeb-422a-afea-2dcbd8057299")
+	)
+	(wire
+		(pts
 			(xy 157.48 88.9) (xy 149.86 88.9)
 		)
 		(stroke
@@ -4214,6 +4686,16 @@
 			(type default)
 		)
 		(uuid "1fb9a914-2ffe-4656-8f96-55436a2cea7c")
+	)
+	(wire
+		(pts
+			(xy 276.86 139.7) (xy 279.4 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c47e65-1e54-4169-9880-c388e3d298ce")
 	)
 	(wire
 		(pts
@@ -4227,6 +4709,26 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 109.22) (xy 279.4 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d211e8-e4cb-42ff-beaf-ef405922c54c")
+	)
+	(wire
+		(pts
+			(xy 264.16 38.1) (xy 271.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236b951c-51cf-4a58-97d9-40a56dda9b3f")
+	)
+	(wire
+		(pts
 			(xy 167.64 58.42) (xy 167.64 60.96)
 		)
 		(stroke
@@ -4234,6 +4736,16 @@
 			(type default)
 		)
 		(uuid "2381b276-92df-45cd-b361-2d3b085eba19")
+	)
+	(wire
+		(pts
+			(xy 256.54 76.2) (xy 264.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23bf81ab-a32a-4fbc-8f28-3b373acc6c34")
 	)
 	(wire
 		(pts
@@ -4254,6 +4766,46 @@
 			(type default)
 		)
 		(uuid "26046b55-3cb2-4609-a793-5cba76f60113")
+	)
+	(wire
+		(pts
+			(xy 304.8 167.64) (xy 304.8 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a004d4-ef94-4e64-b0e0-b1885bb619fc")
+	)
+	(polyline
+		(pts
+			(xy 398.78 144.78) (xy 398.78 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298d8125-3b74-4b8b-92de-f0294bb2cc28")
+	)
+	(polyline
+		(pts
+			(xy 383.54 139.7) (xy 401.32 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e9c82b-1f10-41f0-947e-2356dee2b09d")
+	)
+	(wire
+		(pts
+			(xy 370.84 152.4) (xy 370.84 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a2ab17f-ff9d-4032-8fc9-e7dc442e09d6")
 	)
 	(wire
 		(pts
@@ -4307,6 +4859,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 152.4) (xy 236.22 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f5d1d7a-00f5-4384-945d-5b14704381a7")
+	)
+	(wire
+		(pts
 			(xy 45.72 203.2) (xy 45.72 205.74)
 		)
 		(stroke
@@ -4327,6 +4889,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 49.53) (xy 381 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3135d197-bad4-4946-ac3f-01de65f45a9c")
+	)
+	(wire
+		(pts
 			(xy 104.14 38.1) (xy 104.14 40.64)
 		)
 		(stroke
@@ -4344,6 +4916,16 @@
 			(type default)
 		)
 		(uuid "315d860d-5189-4113-85e1-6625fe30ed0d")
+	)
+	(wire
+		(pts
+			(xy 373.38 40.64) (xy 375.92 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325375a6-34b7-4d25-9f1e-6e496a63b6fd")
 	)
 	(wire
 		(pts
@@ -4397,6 +4979,46 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 43.18) (xy 370.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346d9d6b-b4a6-4055-affb-e90fa4be0849")
+	)
+	(wire
+		(pts
+			(xy 360.68 43.18) (xy 360.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c15a9f-1bc9-49d6-887c-4b3128ee1504")
+	)
+	(wire
+		(pts
+			(xy 243.84 86.36) (xy 246.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f680e9-fbb5-4987-a4b7-f567895162a2")
+	)
+	(wire
+		(pts
+			(xy 373.38 88.9) (xy 375.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35dbe774-8563-4f9a-b989-a7b6ab380e78")
+	)
+	(wire
+		(pts
 			(xy 68.58 55.88) (xy 68.58 58.42)
 		)
 		(stroke
@@ -4404,6 +5026,16 @@
 			(type default)
 		)
 		(uuid "36d75776-84a2-41b3-8e12-14fa2c5c43b3")
+	)
+	(wire
+		(pts
+			(xy 264.16 139.7) (xy 261.62 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376ec39c-c7aa-4c69-96cb-717e0ce9550a")
 	)
 	(wire
 		(pts
@@ -4437,6 +5069,26 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 101.6) (xy 251.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2c5e6e-7c89-4c7d-a940-f2c338715a3a")
+	)
+	(wire
+		(pts
+			(xy 259.08 152.4) (xy 261.62 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4252031f-4a1f-4e08-bc4f-7319ea4faef0")
+	)
+	(wire
+		(pts
 			(xy 43.18 139.7) (xy 48.26 139.7)
 		)
 		(stroke
@@ -4454,6 +5106,16 @@
 			(type default)
 		)
 		(uuid "42647eb9-e502-439c-84ce-147754c654e7")
+	)
+	(wire
+		(pts
+			(xy 243.84 91.44) (xy 246.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4288b9f6-76b7-44e2-bec8-90b2a8ab3d9c")
 	)
 	(wire
 		(pts
@@ -4497,6 +5159,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 80.01) (xy 381 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4adbe142-93e9-4d46-bea2-e3b1e349aa13")
+	)
+	(wire
+		(pts
 			(xy 157.48 45.72) (xy 157.48 48.26)
 		)
 		(stroke
@@ -4504,6 +5176,16 @@
 			(type default)
 		)
 		(uuid "4c44941a-a496-4ad6-ab18-c497056a8196")
+	)
+	(wire
+		(pts
+			(xy 370.84 50.8) (xy 370.84 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e2f54a4-b4bb-4c58-8306-02698cdcf142")
 	)
 	(wire
 		(pts
@@ -4535,6 +5217,16 @@
 		)
 		(uuid "5016dd84-8cca-49a1-a5c3-754887139081")
 	)
+	(polyline
+		(pts
+			(xy 401.32 134.62) (xy 401.32 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5100702f-1405-4060-8e3d-205629dcc9a6")
+	)
 	(wire
 		(pts
 			(xy 177.8 40.64) (xy 177.8 38.1)
@@ -4564,6 +5256,26 @@
 			(type default)
 		)
 		(uuid "53862ac8-5480-4fc4-9acd-9865d131e380")
+	)
+	(wire
+		(pts
+			(xy 370.84 93.98) (xy 370.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d92ffd-dd9f-4b6b-9a20-d31500ad2030")
+	)
+	(wire
+		(pts
+			(xy 233.68 127) (xy 236.22 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541c2cd3-deef-4e75-9408-b04d5b13a75a")
 	)
 	(wire
 		(pts
@@ -4617,6 +5329,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 93.98) (xy 375.92 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5989e47b-49b4-4733-a619-d8a8135242ac")
+	)
+	(wire
+		(pts
 			(xy 116.84 38.1) (xy 127 38.1)
 		)
 		(stroke
@@ -4657,6 +5379,46 @@
 	)
 	(wire
 		(pts
+			(xy 381 130.81) (xy 381 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c079826-d170-4fdd-8945-bc464efbf4cd")
+	)
+	(wire
+		(pts
+			(xy 294.64 160.02) (xy 294.64 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4ec81c-bf8c-4656-bacb-a1a2a5132f5f")
+	)
+	(wire
+		(pts
+			(xy 294.64 147.32) (xy 304.8 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e870161-bbcc-46e1-90aa-dbd5d10f0cbc")
+	)
+	(wire
+		(pts
+			(xy 360.68 43.18) (xy 370.84 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f7007b-9ba9-4b62-a625-8cf80430641c")
+	)
+	(wire
+		(pts
 			(xy 167.64 109.22) (xy 167.64 111.76)
 		)
 		(stroke
@@ -4667,6 +5429,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 101.6) (xy 236.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639cf76e-8a80-4014-8412-09edb68a0f3b")
+	)
+	(wire
+		(pts
+			(xy 276.86 88.9) (xy 279.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b033cc-c450-43d8-b566-958dd4436606")
+	)
+	(wire
+		(pts
 			(xy 116.84 45.72) (xy 116.84 48.26)
 		)
 		(stroke
@@ -4674,6 +5456,26 @@
 			(type default)
 		)
 		(uuid "63b863d3-7c56-4fca-9049-5698420d4e57")
+	)
+	(wire
+		(pts
+			(xy 38.1 80.01) (xy 38.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c0c3a0-88fa-47f9-9b3c-9589eb66c549")
+	)
+	(wire
+		(pts
+			(xy 279.4 139.7) (xy 279.4 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d29f1d-5b71-41a2-9be3-de0d1c03114b")
 	)
 	(wire
 		(pts
@@ -4697,6 +5499,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 152.4) (xy 243.84 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694ea49d-b3c7-4b18-8e91-6b79be4d1e67")
+	)
+	(wire
+		(pts
 			(xy 48.26 215.9) (xy 50.8 215.9)
 		)
 		(stroke
@@ -4704,6 +5516,16 @@
 			(type default)
 		)
 		(uuid "69bd91eb-9c94-462e-9d89-ba77837299fd")
+	)
+	(wire
+		(pts
+			(xy 279.4 109.22) (xy 279.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af3ac6a-ed9f-4ac0-867b-a83639df553b")
 	)
 	(wire
 		(pts
@@ -4727,6 +5549,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 167.64) (xy 304.8 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce8aae2-a529-46c5-aaa7-39f6ef128fec")
+	)
+	(wire
+		(pts
 			(xy 241.3 25.4) (xy 243.84 25.4)
 		)
 		(stroke
@@ -4734,6 +5566,16 @@
 			(type default)
 		)
 		(uuid "6fe4684c-9e45-4d2b-88d0-f0037674bcbb")
+	)
+	(wire
+		(pts
+			(xy 360.68 144.78) (xy 370.84 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7038c5da-734f-4bfc-ba51-d76de0708820")
 	)
 	(wire
 		(pts
@@ -4757,6 +5599,26 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 101.6) (xy 243.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761c8242-0a6b-4839-ad59-2753ea19664b")
+	)
+	(wire
+		(pts
+			(xy 276.86 38.1) (xy 279.4 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779c7f2a-bb71-4c59-b030-b8c5aaaf7942")
+	)
+	(wire
+		(pts
 			(xy 142.24 160.02) (xy 142.24 162.56)
 		)
 		(stroke
@@ -4764,6 +5626,36 @@
 			(type default)
 		)
 		(uuid "78224849-4d27-42fd-b5df-3d6ca2571265")
+	)
+	(wire
+		(pts
+			(xy 241.3 76.2) (xy 243.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7866f817-009d-47a8-a867-f4607e2234cf")
+	)
+	(wire
+		(pts
+			(xy 284.48 147.32) (xy 294.64 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "786771f9-535d-41c6-968e-a3985fab2375")
+	)
+	(wire
+		(pts
+			(xy 294.64 109.22) (xy 294.64 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b9f233-654f-4283-9e31-757f1c348276")
 	)
 	(wire
 		(pts
@@ -4807,6 +5699,36 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 147.32) (xy 304.8 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797fffa9-ffab-40f7-8a72-2ace3e4ded50")
+	)
+	(wire
+		(pts
+			(xy 381 29.21) (xy 381 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798f03a2-bb09-44a2-826a-3d17183857f7")
+	)
+	(wire
+		(pts
+			(xy 256.54 152.4) (xy 259.08 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5191ca-bba6-46aa-961a-4daf295b01d3")
+	)
+	(wire
+		(pts
 			(xy 104.14 160.02) (xy 104.14 162.56)
 		)
 		(stroke
@@ -4814,6 +5736,26 @@
 			(type default)
 		)
 		(uuid "7c7cf294-7686-4954-af4c-d0c00e4e7e0a")
+	)
+	(wire
+		(pts
+			(xy 284.48 104.14) (xy 284.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4bffde-2bd7-4453-b99b-065568741a3b")
+	)
+	(wire
+		(pts
+			(xy 43.18 93.98) (xy 45.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4cc193-3dd4-4c88-820b-da166ec99718")
 	)
 	(wire
 		(pts
@@ -4827,6 +5769,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 43.18) (xy 375.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0a7795-be37-4908-86eb-48eba83efbda")
+	)
+	(wire
+		(pts
 			(xy 167.64 160.02) (xy 167.64 162.56)
 		)
 		(stroke
@@ -4834,6 +5786,16 @@
 			(type default)
 		)
 		(uuid "7f55b33a-b3ac-4ed1-9fbf-53f18060469b")
+	)
+	(wire
+		(pts
+			(xy 284.48 96.52) (xy 294.64 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8142fa6d-13dc-4fdd-9b0f-708353350972")
 	)
 	(wire
 		(pts
@@ -4877,6 +5839,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 76.2) (xy 243.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f75d00-e017-4245-969f-ec0b2bd59fa5")
+	)
+	(wire
+		(pts
 			(xy 68.58 99.06) (xy 68.58 101.6)
 		)
 		(stroke
@@ -4884,6 +5856,26 @@
 			(type default)
 		)
 		(uuid "85c5c0dd-a082-4c34-acf1-ac3bd2a69bda")
+	)
+	(wire
+		(pts
+			(xy 360.68 144.78) (xy 360.68 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87267acb-a64d-4adb-bf71-2e5ab38f8ec1")
+	)
+	(wire
+		(pts
+			(xy 264.16 88.9) (xy 271.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c01437-55c3-40b7-871c-e6e5d9ff3d64")
 	)
 	(wire
 		(pts
@@ -4897,6 +5889,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 152.4) (xy 243.84 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88dffa9a-af51-4c03-b530-6a36b7df0692")
+	)
+	(wire
+		(pts
 			(xy 104.14 139.7) (xy 104.14 142.24)
 		)
 		(stroke
@@ -4904,6 +5906,26 @@
 			(type default)
 		)
 		(uuid "897bbb62-0ea9-423e-8036-f2bdaf3e4069")
+	)
+	(polyline
+		(pts
+			(xy 405.13 147.32) (xy 405.13 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0dd999-238a-4339-aa32-b22a6cf979e5")
+	)
+	(wire
+		(pts
+			(xy 241.3 127) (xy 243.84 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6f1cf5-e395-47d5-be29-23c5f6798bb5")
 	)
 	(wire
 		(pts
@@ -4934,6 +5956,16 @@
 			(type default)
 		)
 		(uuid "8ce90683-1ef6-408b-95ee-b632411768eb")
+	)
+	(wire
+		(pts
+			(xy 259.08 160.02) (xy 279.4 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd1d647-be7f-4031-8c8c-3871fd1bd607")
 	)
 	(wire
 		(pts
@@ -4975,6 +6007,26 @@
 		)
 		(uuid "9169e0d4-74f1-4b2b-a159-9de5373068c5")
 	)
+	(polyline
+		(pts
+			(xy 393.7 142.24) (xy 393.7 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "938502c5-9272-46e8-8f5e-9eadfea1ec46")
+	)
+	(wire
+		(pts
+			(xy 243.84 137.16) (xy 246.38 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9395caf9-e22b-435f-9b00-1561c3fd7188")
+	)
 	(wire
 		(pts
 			(xy 304.8 45.72) (xy 304.8 48.26)
@@ -4984,6 +6036,16 @@
 			(type default)
 		)
 		(uuid "93d40598-41e3-4ffe-8ce9-3d4b2c6d5017")
+	)
+	(wire
+		(pts
+			(xy 279.4 88.9) (xy 279.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9474dfed-3039-4e77-aff4-6cd3ef1561e8")
 	)
 	(wire
 		(pts
@@ -5014,6 +6076,16 @@
 			(type default)
 		)
 		(uuid "96a7fd53-9b50-4ed1-a652-6e3e0806bd80")
+	)
+	(wire
+		(pts
+			(xy 279.4 38.1) (xy 281.94 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c1ac34-0b5c-4f20-9870-922caddbb9c5")
 	)
 	(wire
 		(pts
@@ -5057,6 +6129,46 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 96.52) (xy 304.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985cd3a0-721a-4150-8d21-e9bd3b16a1e2")
+	)
+	(wire
+		(pts
+			(xy 243.84 127) (xy 251.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9935186c-ff4c-4d7b-b531-a024a48face0")
+	)
+	(wire
+		(pts
+			(xy 373.38 142.24) (xy 375.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a36d843-7d25-4149-b26d-bd5c5873eb6e")
+	)
+	(wire
+		(pts
+			(xy 243.84 76.2) (xy 251.46 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bde9378-4815-441d-ac8d-b1a7c0724c6f")
+	)
+	(wire
+		(pts
 			(xy 304.8 66.04) (xy 304.8 63.5)
 		)
 		(stroke
@@ -5064,6 +6176,16 @@
 			(type default)
 		)
 		(uuid "9d8a1367-a0ca-4a6d-85ec-25c0b9bb9128")
+	)
+	(wire
+		(pts
+			(xy 241.3 101.6) (xy 243.84 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7953bd-aed9-4db9-b3ef-ec4cbd95d257")
 	)
 	(wire
 		(pts
@@ -5097,6 +6219,26 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 127) (xy 264.16 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a97ce9-dbfa-4e8d-a942-1140b0374577")
+	)
+	(wire
+		(pts
+			(xy 279.4 139.7) (xy 281.94 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2081234-778f-492f-9b0e-36e941e4f730")
+	)
+	(wire
+		(pts
 			(xy 127 96.52) (xy 127 99.06)
 		)
 		(stroke
@@ -5104,6 +6246,16 @@
 			(type default)
 		)
 		(uuid "a2841a07-9b30-4e5f-add7-2dfde9f7053a")
+	)
+	(wire
+		(pts
+			(xy 358.14 144.78) (xy 360.68 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a356f17b-c721-4532-abd5-402613eb10c8")
 	)
 	(wire
 		(pts
@@ -5117,6 +6269,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 160.02) (xy 279.4 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4570913-91b1-4361-9a5e-5ad22df6126d")
+	)
+	(wire
+		(pts
 			(xy 284.48 66.04) (xy 294.64 66.04)
 		)
 		(stroke
@@ -5127,6 +6289,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 50.8) (xy 360.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5422fb4-869c-4635-ae5d-389fd254023c")
+	)
+	(wire
+		(pts
 			(xy 243.84 35.56) (xy 246.38 35.56)
 		)
 		(stroke
@@ -5134,6 +6306,16 @@
 			(type default)
 		)
 		(uuid "a6c7e43e-a4d6-4261-bba5-0c0d19533f67")
+	)
+	(wire
+		(pts
+			(xy 256.54 127) (xy 264.16 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a754d196-ea19-4dca-b133-334e0bb15e47")
 	)
 	(wire
 		(pts
@@ -5167,6 +6349,26 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 139.7) (xy 375.92 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abce887c-ebcc-44ab-95b6-1d8235b31109")
+	)
+	(wire
+		(pts
+			(xy 373.38 38.1) (xy 375.92 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac14a2bb-f35d-4514-b20c-c4ba104d58c1")
+	)
+	(wire
+		(pts
 			(xy 152.4 60.96) (xy 160.02 60.96)
 		)
 		(stroke
@@ -5174,6 +6376,16 @@
 			(type default)
 		)
 		(uuid "ac4face9-c1eb-4cc8-b5fe-adb5c2bc5d51")
+	)
+	(wire
+		(pts
+			(xy 294.64 116.84) (xy 304.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed7593e-e82e-4e97-983f-aef3f38dd12b")
 	)
 	(wire
 		(pts
@@ -5215,6 +6427,26 @@
 		)
 		(uuid "b19da3eb-25d1-4bb4-badc-f8ed1577f62d")
 	)
+	(polyline
+		(pts
+			(xy 393.7 149.86) (xy 405.13 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b2d68a-8531-4dad-b493-7298306811fa")
+	)
+	(wire
+		(pts
+			(xy 304.8 116.84) (xy 304.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f545c5-285e-478c-a56c-e14bf905719c")
+	)
 	(wire
 		(pts
 			(xy 157.48 139.7) (xy 149.86 139.7)
@@ -5234,6 +6466,26 @@
 			(type default)
 		)
 		(uuid "b4285f7a-f347-4f4f-8473-d525a149cfdc")
+	)
+	(wire
+		(pts
+			(xy 243.84 152.4) (xy 251.46 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c1a985-264a-4b5a-b4dd-7ccbafbb16d4")
+	)
+	(wire
+		(pts
+			(xy 284.48 109.22) (xy 284.48 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f39464-e42b-4984-ba91-d728de919bf1")
 	)
 	(wire
 		(pts
@@ -5267,6 +6519,26 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 88.9) (xy 281.94 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a1894e-2300-435e-876b-fb168cd4b0c4")
+	)
+	(wire
+		(pts
+			(xy 370.84 144.78) (xy 375.92 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b95d8ba8-8be7-4071-9359-f3ddebaf18d5")
+	)
+	(wire
+		(pts
 			(xy 177.8 116.84) (xy 177.8 119.38)
 		)
 		(stroke
@@ -5277,13 +6549,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 93.98) (xy 45.72 93.98)
+			(xy 259.08 101.6) (xy 261.62 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd584536-b500-439f-a550-fdf3377ae437")
+		(uuid "ba3a87e8-6ce9-4ac0-919c-729576fe3f7b")
 	)
 	(wire
 		(pts
@@ -5307,6 +6579,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 49.53) (xy 38.1 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1282cf-28a1-40db-bad6-008a05328aed")
+	)
+	(wire
+		(pts
 			(xy 177.8 167.64) (xy 177.8 170.18)
 		)
 		(stroke
@@ -5314,6 +6596,36 @@
 			(type default)
 		)
 		(uuid "c262b353-54bc-4288-8805-60bb50d3e8f0")
+	)
+	(wire
+		(pts
+			(xy 370.84 144.78) (xy 370.84 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30686c7-8f0a-447b-a3b1-8fdeb72e14be")
+	)
+	(wire
+		(pts
+			(xy 243.84 127) (xy 243.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c38486d8-074f-4844-a8f0-bbd5b5a5c5ce")
+	)
+	(polyline
+		(pts
+			(xy 405.13 134.62) (xy 405.13 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b1227f-14df-4e21-845e-87bed4bf06e7")
 	)
 	(wire
 		(pts
@@ -5327,6 +6639,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 76.2) (xy 264.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c898d4c7-a3d1-46fa-b689-245935166dd2")
+	)
+	(wire
+		(pts
 			(xy 152.4 111.76) (xy 152.4 101.6)
 		)
 		(stroke
@@ -5334,6 +6656,26 @@
 			(type default)
 		)
 		(uuid "caabcdcc-3ccf-454f-8a74-1b960ac86a98")
+	)
+	(polyline
+		(pts
+			(xy 383.54 142.24) (xy 393.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7a1128-cb42-41a4-a8c4-72fc942b369a")
+	)
+	(wire
+		(pts
+			(xy 264.16 139.7) (xy 271.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4323b0-637e-4269-a33f-f81244778b3b")
 	)
 	(wire
 		(pts
@@ -5357,6 +6699,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 149.86) (xy 276.86 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd003bd3-ba0d-48a5-97c5-3d309fe1a6bb")
+	)
+	(wire
+		(pts
 			(xy 139.7 160.02) (xy 139.7 162.56)
 		)
 		(stroke
@@ -5367,6 +6719,26 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 151.13) (xy 38.1 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd17eb6b-6584-4363-a169-2fdeb02c5692")
+	)
+	(wire
+		(pts
+			(xy 243.84 142.24) (xy 246.38 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd5abbf6-af8f-4213-b396-cac2fa900799")
+	)
+	(wire
+		(pts
 			(xy 104.14 38.1) (xy 116.84 38.1)
 		)
 		(stroke
@@ -5374,6 +6746,16 @@
 			(type default)
 		)
 		(uuid "cdcb09b3-c61d-4316-ab70-21db44686f7c")
+	)
+	(wire
+		(pts
+			(xy 279.4 104.14) (xy 276.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce42799b-e97c-4fd8-971e-a0617b907c25")
 	)
 	(wire
 		(pts
@@ -5397,6 +6779,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 160.02) (xy 284.48 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0550a8a-fa1d-4c6a-bad7-b089c4d98a9c")
+	)
+	(wire
+		(pts
 			(xy 177.8 38.1) (xy 167.64 38.1)
 		)
 		(stroke
@@ -5407,6 +6799,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 104.14) (xy 294.64 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0978883-f38f-43b1-9ef9-7b0dc72cfe24")
+	)
+	(wire
+		(pts
 			(xy 116.84 139.7) (xy 116.84 142.24)
 		)
 		(stroke
@@ -5414,6 +6816,26 @@
 			(type default)
 		)
 		(uuid "d14b435c-58bb-415d-a3d9-2061e93891ae")
+	)
+	(wire
+		(pts
+			(xy 259.08 152.4) (xy 259.08 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d15082b5-a828-40c1-91c7-9f25e5197994")
+	)
+	(wire
+		(pts
+			(xy 284.48 167.64) (xy 294.64 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1794617-22ff-4774-a789-23e0c477a8d4")
 	)
 	(wire
 		(pts
@@ -5437,6 +6859,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 151.13) (xy 381 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d342332f-19cb-4e55-8cc5-7f56bebf1e83")
+	)
+	(wire
+		(pts
 			(xy 104.14 139.7) (xy 116.84 139.7)
 		)
 		(stroke
@@ -5454,6 +6886,16 @@
 			(type default)
 		)
 		(uuid "d6cbe72f-e375-4dff-a623-30c0c1fa9670")
+	)
+	(wire
+		(pts
+			(xy 38.1 100.33) (xy 38.1 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d874f1a2-56f9-4e79-ae05-1868788c733a")
 	)
 	(wire
 		(pts
@@ -5517,6 +6959,36 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 154.94) (xy 276.86 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5d30c3-3972-4ae5-a8d9-a441700e05c9")
+	)
+	(wire
+		(pts
+			(xy 360.68 101.6) (xy 360.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37b7eb7-4644-4900-93a8-9484193bbaec")
+	)
+	(wire
+		(pts
+			(xy 381 100.33) (xy 381 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a5cc03-7717-4e37-96ba-f0029a79929e")
+	)
+	(wire
+		(pts
 			(xy 76.2 139.7) (xy 104.14 139.7)
 		)
 		(stroke
@@ -5534,6 +7006,16 @@
 			(type default)
 		)
 		(uuid "e561d685-05f5-4152-aaeb-fa5ba1d2ee48")
+	)
+	(polyline
+		(pts
+			(xy 401.32 143.51) (xy 402.59 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8daf49c-eb61-4bd0-99f0-182803d797d0")
 	)
 	(wire
 		(pts
@@ -5567,6 +7049,36 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 101.6) (xy 259.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa850a4-78c6-4cf3-8fd3-fcb74dcedf02")
+	)
+	(wire
+		(pts
+			(xy 360.68 152.4) (xy 360.68 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7fb589-f2c7-400d-a74b-c094bbfa7266")
+	)
+	(wire
+		(pts
+			(xy 294.64 96.52) (xy 304.8 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbfa285-0c48-4813-8bde-ff6ae9b6dcf8")
+	)
+	(wire
+		(pts
 			(xy 48.26 215.9) (xy 48.26 218.44)
 		)
 		(stroke
@@ -5587,6 +7099,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 101.6) (xy 259.08 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18a6171-52af-43b2-a1be-7390adae42c7")
+	)
+	(wire
+		(pts
 			(xy 149.86 38.1) (xy 157.48 38.1)
 		)
 		(stroke
@@ -5604,6 +7126,16 @@
 			(type default)
 		)
 		(uuid "f1d66612-29f7-4043-87ac-ef4ba848014b")
+	)
+	(polyline
+		(pts
+			(xy 398.78 142.24) (xy 402.59 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2c7a20d-af4d-4ab0-ae0c-792bed6d9dde")
 	)
 	(wire
 		(pts
@@ -5627,6 +7159,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 154.94) (xy 294.64 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3cba788-75c4-423b-9200-2d87de1a68d8")
+	)
+	(wire
+		(pts
 			(xy 157.48 96.52) (xy 157.48 99.06)
 		)
 		(stroke
@@ -5634,6 +7176,16 @@
 			(type default)
 		)
 		(uuid "f3d15554-77ee-47ee-8a24-cf8f4c338616")
+	)
+	(wire
+		(pts
+			(xy 360.68 93.98) (xy 370.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f668a0c1-0109-4552-9bdb-04e736281bea")
 	)
 	(wire
 		(pts
@@ -5677,6 +7229,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 130.81) (xy 38.1 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa749742-c22f-4295-9ec6-a9cfb399ab2b")
+	)
+	(wire
+		(pts
 			(xy 104.14 147.32) (xy 104.14 154.94)
 		)
 		(stroke
@@ -5705,6 +7267,18 @@
 		)
 		(uuid "fd7260fa-217d-4158-be51-297a831995c3")
 	)
+	(rectangle
+		(start 403.86 137.16)
+		(end 406.4 147.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ce4d97a5-e74f-45b9-8903-62f41dc864a4)
+	)
 	(text "Brake"
 		(exclude_from_sim no)
 		(at 27.94 137.16 0)
@@ -5714,6 +7288,16 @@
 			)
 		)
 		(uuid "2c98f7bc-9657-4f6f-b56b-2d767a495cd8")
+	)
+	(text "2.2~3.8V"
+		(exclude_from_sim no)
+		(at 335.28 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3b60eed4-985e-4ddc-a756-477d09ac10b6")
 	)
 	(text "Accel 1"
 		(exclude_from_sim no)
@@ -5734,6 +7318,36 @@
 			)
 		)
 		(uuid "3f71dc00-8d1e-4a42-b600-c3ceb6b8fbb9")
+	)
+	(text "2.2~3.8V"
+		(exclude_from_sim no)
+		(at 335.28 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bcd00f7b-a35d-470a-a3fc-12aad6adc676")
+	)
+	(text "8.8~15.2mA"
+		(exclude_from_sim no)
+		(at 55.88 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e647b0af-6169-4672-93c0-d5a6c29e8895")
+	)
+	(text "8.8~15.2mA"
+		(exclude_from_sim no)
+		(at 55.88 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f749c7ca-4f6e-476e-a8e4-b1360c85d901")
 	)
 	(global_label "ACCEL1_SIG_IN_V"
 		(shape input)
@@ -5759,7 +7373,7 @@
 	)
 	(global_label "ACCEL2_SIG_IN_V"
 		(shape output)
-		(at 373.38 93.98 180)
+		(at 358.14 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5769,7 +7383,29 @@
 		)
 		(uuid "1a73b521-234c-4a24-ab37-8f2b6520af64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 354.3686 93.98 0)
+			(at 339.1286 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ACCEL2_SIG_IN_V"
+		(shape input)
+		(at 233.68 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "221d6070-a5af-4057-a6c5-5a2739d008b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.6686 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +7439,7 @@
 	)
 	(global_label "ACCEL1_SIG_IN_V"
 		(shape output)
-		(at 373.38 43.18 180)
+		(at 358.14 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5813,7 +7449,7 @@
 		)
 		(uuid "4512234b-795c-45f3-9b23-9dd65e962ec1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 354.3686 43.18 0)
+			(at 339.1286 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5847,7 +7483,7 @@
 	)
 	(global_label "BRAKE_SIG_IN_V"
 		(shape output)
-		(at 373.38 144.78 180)
+		(at 358.14 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5857,12 +7493,100 @@
 		)
 		(uuid "6a0e3a16-b5ff-4901-a56b-bb44a7b2c526")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 355.3362 144.78 0)
+			(at 340.0962 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BRAKE_SIG_IN_V"
+		(shape input)
+		(at 233.68 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73561e5d-b7da-4ac9-884e-6f092182138f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.6362 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ACCEL1_SIG_OUT_I"
+		(shape output)
+		(at 281.94 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9b21dd2-97dd-4aef-8b7f-1f5fe2fa1ec5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.1609 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ACCEL2_SIG_OUT_I"
+		(shape output)
+		(at 281.94 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb822ddd-fd0c-4bd2-b968-a5460a83dcba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.1609 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BRAKE_SIG_OUT_I"
+		(shape output)
+		(at 281.94 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be694700-fdb6-4fa4-9e90-fdfeecbe2dc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 301.1933 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6220,6 +7944,138 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectEV_Power:GND1")
+		(at 38.1 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b59d76a-c390-4858-b8fd-6ea0203c6522")
+		(property "Reference" "#PWR043"
+			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 38.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 38.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbcf69c8-ba03-44a6-99e6-8f1676f0fe22")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:GND2")
+		(at 38.1 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bb2d0ee-8748-4101-bdfc-1411ed623942")
+		(property "Reference" "#PWR048"
+			(at 38.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 38.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 38.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02e0921c-616c-4b8c-a223-acc00a6b7846")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectEV_Diode:PZ1AH11B-AU_R1_000A1")
 		(at 76.2 144.78 270)
 		(unit 1)
@@ -6372,6 +8228,82 @@
 			(project ""
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Resistor:R_1608M")
+		(at 238.76 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e3d2a3c-150d-437c-9fea-3b18c40337eb")
+		(property "Reference" "R32"
+			(at 238.76 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 238.76 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectEV_Resistor:R_1608M"
+			(at 238.76 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608"
+			(at 238.76 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b407d34a-f947-4fef-ae8e-37d11a7a5e45")
+		)
+		(pin "1"
+			(uuid "c1e0be4d-94e2-49ba-9f64-55a5cc9d1be4")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -6533,6 +8465,168 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectEV_Power:GND3")
+		(at 381 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1088c925-3792-49c2-9c83-06b72ce66789")
+		(property "Reference" "#PWR028"
+			(at 381 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 381 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 381 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca259590-b8d0-4c7d-a9ce-c01da9b4695d")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Opamp:NCV20072DR2G")
+		(at 254 88.9 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12711c60-6c4e-48b4-9524-993d261b727d")
+		(property "Reference" "U5"
+			(at 254 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCV20072DR2G"
+			(at 254 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectEV_Opamp:NCV20072DR2G"
+			(at 254 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser番号" "863-NCV20072DR2G"
+			(at 254 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "88762721-9fa8-461e-a2c9-6470ec096078")
+		)
+		(pin "3"
+			(uuid "28787be5-c5de-41f0-9419-8986c8c1827b")
+		)
+		(pin "6"
+			(uuid "6623a133-61ea-4239-a1cc-f1e98ae63a71")
+		)
+		(pin "4"
+			(uuid "7294b147-b926-4a63-9252-52e7af5bee7f")
+		)
+		(pin "8"
+			(uuid "a5f2d724-4b42-40fc-bf0e-8d4581e8c6f0")
+		)
+		(pin "1"
+			(uuid "0c2ea1d3-af7d-44c9-9dcc-8a7ac0e1459b")
+		)
+		(pin "2"
+			(uuid "06bd3ad6-2068-4247-95f7-5fa37a81803f")
+		)
+		(pin "7"
+			(uuid "9f635a72-0708-4692-9879-bde71e35fb31")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectEV_Connector_JST:SM03B-PASS-TBT")
 		(at 381 91.44 0)
 		(unit 1)
@@ -6614,6 +8708,73 @@
 			(project "accel-brake-sig-converter-board"
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:VCC3")
+		(at 373.38 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14b274ab-6198-43f9-847e-3c0137e6e8f0")
+		(property "Reference" "#PWR027"
+			(at 377.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC3"
+			(at 369.57 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC3\""
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "486fcfcc-70ce-4048-ba57-a788456ee573")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6837,6 +8998,204 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectEV_Power:+12V3")
+		(at 304.8 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17705374-8222-4f66-bbef-d6d019675759")
+		(property "Reference" "#PWR054"
+			(at 304.8 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V3"
+			(at 304.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V3\""
+			(at 304.8 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "999be207-c5cf-4916-ac02-50930dad9bf1")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:GND1")
+		(at 360.68 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c5f3cc1-b313-4ddd-a035-171c90063cd8")
+		(property "Reference" "#PWR042"
+			(at 360.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 360.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 360.68 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4bd9a8b-50df-48be-af14-e81b303b6093")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:GND3")
+		(at 38.1 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ca0649b-d25a-4db1-9580-e967c36261cc")
+		(property "Reference" "#PWR050"
+			(at 38.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 38.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd566a25-2a95-46d0-8839-856bd73228ca")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectEV_Resistor:R_1608M")
 		(at 162.56 162.56 90)
 		(unit 1)
@@ -6913,6 +9272,72 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectEV_Power:GND3")
+		(at 38.1 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21d9397b-7a57-485a-82e6-801a99b0861e")
+		(property "Reference" "#PWR049"
+			(at 38.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 38.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec980b36-97f5-40f9-b601-93c16f1ba44d")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectEV_Opamp:NCV20072DR2G")
 		(at 254 38.1 0)
 		(mirror x)
@@ -6976,28 +9401,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "88762721-9fa8-461e-a2c9-6470ec096077")
+			(uuid "88762721-9fa8-461e-a2c9-6470ec096079")
 		)
 		(pin "3"
-			(uuid "bda819f6-0f4a-4694-a7d2-eea528a29fe3")
+			(uuid "bda819f6-0f4a-4694-a7d2-eea528a29fe4")
 		)
 		(pin "6"
-			(uuid "6623a133-61ea-4239-a1cc-f1e98ae63a70")
+			(uuid "6623a133-61ea-4239-a1cc-f1e98ae63a72")
 		)
 		(pin "4"
-			(uuid "7294b147-b926-4a63-9252-52e7af5bee7e")
+			(uuid "7294b147-b926-4a63-9252-52e7af5bee80")
 		)
 		(pin "8"
-			(uuid "a5f2d724-4b42-40fc-bf0e-8d4581e8c6ef")
+			(uuid "a5f2d724-4b42-40fc-bf0e-8d4581e8c6f1")
 		)
 		(pin "1"
-			(uuid "9f7bb326-7586-4780-8486-2f9b79e9edb1")
+			(uuid "9f7bb326-7586-4780-8486-2f9b79e9edb2")
 		)
 		(pin "2"
-			(uuid "78073dde-7f44-4035-aca1-746eae66220e")
+			(uuid "78073dde-7f44-4035-aca1-746eae66220f")
 		)
 		(pin "7"
-			(uuid "9f635a72-0708-4692-9879-bde71e35fb30")
+			(uuid "9f635a72-0708-4692-9879-bde71e35fb32")
 		)
 		(instances
 			(project ""
@@ -7391,6 +9816,72 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectEV_Power:GND2")
+		(at 381 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e2404b1-5a84-41c9-baaa-c640d448e5aa")
+		(property "Reference" "#PWR064"
+			(at 381 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 381 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 381 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5075361-b818-46a4-b5a3-31778493de3f")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectEV_Capacitor:C_1608M")
 		(at 127 93.98 0)
 		(unit 1)
@@ -7774,6 +10265,72 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectEV_Power:+12V2")
+		(at 304.8 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34df02f8-3784-4023-a6b1-00d3f20a3bab")
+		(property "Reference" "#PWR051"
+			(at 304.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V2"
+			(at 304.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V2\""
+			(at 304.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfb60bd4-d1ea-49cd-af57-5f61a8db7676")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectEV_Power:GND3")
 		(at 104.14 162.56 0)
 		(unit 1)
@@ -8069,6 +10626,139 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectEV_Power:GND2")
+		(at 233.68 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39378b23-2714-42e4-9ede-68743229a0d5")
+		(property "Reference" "#PWR053"
+			(at 227.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 229.87 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 233.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d9014bf-0808-4c16-9849-d06d9f44264a")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:GND2")
+		(at 370.84 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3adab683-f113-431a-8de4-f38fdc99aff9")
+		(property "Reference" "#PWR045"
+			(at 370.84 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 370.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 370.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 370.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9790121b-f6bb-40ae-af38-2b47c7662200")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectEV_RegulatorLinear:NCV8711BMTW500TBG")
 		(at 142.24 96.52 0)
 		(unit 1)
@@ -8155,6 +10845,246 @@
 			(project "accel-brake-sig-converter-board"
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Resistor:RT1206BRC07250RL")
+		(at 274.32 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4042943d-6d4f-4dd4-908a-bdef2f3d1e15")
+		(property "Reference" "R23"
+			(at 274.32 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RT1206BRC07250RL"
+			(at 274.32 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectEV_Resistor:RT1206BRC07250RL"
+			(at 274.32 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "3216"
+			(at 274.32 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser番号" "603-RT1206BRC07250RL"
+			(at 274.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b07e9638-72ff-42c1-b0ff-9aab0a484b7c")
+		)
+		(pin "2"
+			(uuid "84835ab7-7346-4a60-91d6-59fc7a0c8e91")
+		)
+		(instances
+			(project ""
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Resistor:R_1608M")
+		(at 238.76 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4311ce43-8d76-41c2-a78d-37c7283ef7c8")
+		(property "Reference" "R26"
+			(at 238.76 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 238.76 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectEV_Resistor:R_1608M"
+			(at 238.76 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608"
+			(at 238.76 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a598658d-d408-4275-9a50-9c03b0a87696")
+		)
+		(pin "1"
+			(uuid "89843d79-d49f-458d-a464-a42c3a434224")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Capacitor:C_1608M")
+		(at 294.64 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "442016cb-0f73-4551-9182-93e5548c2fd3")
+		(property "Reference" "C16"
+			(at 297.18 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 297.18 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectEV_Capacitor:C_1608M"
+			(at 295.6052 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608M"
+			(at 297.18 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "37bee29a-8ad2-450c-b41d-eebf4369fff0")
+		)
+		(pin "2"
+			(uuid "6ed12847-c2cf-47da-a215-bb7b5cb64eb7")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -8797,6 +11727,102 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectEV_Opamp:NCV20072DR2G")
+		(at 269.24 101.6 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5aa0e8b5-2918-4079-ab79-7896a0e6f6a9")
+		(property "Reference" "U5"
+			(at 269.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCV20072DR2G"
+			(at 269.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectEV_Opamp:NCV20072DR2G"
+			(at 269.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser番号" "863-NCV20072DR2G"
+			(at 269.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "432d6fa1-f4c8-429d-9f29-85d867c5abab")
+		)
+		(pin "3"
+			(uuid "bda819f6-0f4a-4694-a7d2-eea528a29fe5")
+		)
+		(pin "6"
+			(uuid "8e28a4c7-3a25-4331-bcd0-7b8dbe1d2182")
+		)
+		(pin "4"
+			(uuid "7294b147-b926-4a63-9252-52e7af5bee81")
+		)
+		(pin "8"
+			(uuid "a5f2d724-4b42-40fc-bf0e-8d4581e8c6f2")
+		)
+		(pin "1"
+			(uuid "9f7bb326-7586-4780-8486-2f9b79e9edb3")
+		)
+		(pin "2"
+			(uuid "78073dde-7f44-4035-aca1-746eae662210")
+		)
+		(pin "7"
+			(uuid "c9b7da66-1e6a-4682-9718-f1fc6f9826eb")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectEV_Power:GND1")
 		(at 38.1 218.44 0)
 		(unit 1)
@@ -8942,6 +11968,72 @@
 			(project ""
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:GND2")
+		(at 38.1 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d17b996-b68d-49ca-a19c-23bc4214ee28")
+		(property "Reference" "#PWR047"
+			(at 38.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 38.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 38.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8051fbd-7ff4-4aae-a959-6f60355b66cb")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -9156,6 +12248,104 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectEV_Opamp:NCV20072DR2G")
+		(at 302.26 106.68 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61d90cff-8643-4e0c-9ad1-b53e4b669f42")
+		(property "Reference" "U5"
+			(at 306.07 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NCV20072DR2G"
+			(at 306.07 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ProjectEV_Opamp:NCV20072DR2G"
+			(at 302.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 302.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser番号" "863-NCV20072DR2G"
+			(at 302.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "88762721-9fa8-461e-a2c9-6470ec09607a")
+		)
+		(pin "3"
+			(uuid "bda819f6-0f4a-4694-a7d2-eea528a29fe6")
+		)
+		(pin "6"
+			(uuid "6623a133-61ea-4239-a1cc-f1e98ae63a73")
+		)
+		(pin "4"
+			(uuid "9269cd42-003b-4d0a-bc8a-8bb88b9e3eb7")
+		)
+		(pin "8"
+			(uuid "9243f40c-4657-4059-9fe4-2fb6585f4c25")
+		)
+		(pin "1"
+			(uuid "9f7bb326-7586-4780-8486-2f9b79e9edb4")
+		)
+		(pin "2"
+			(uuid "78073dde-7f44-4035-aca1-746eae662211")
+		)
+		(pin "7"
+			(uuid "9f635a72-0708-4692-9879-bde71e35fb33")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectEV_Resistor:R_1608M")
 		(at 167.64 106.68 0)
 		(unit 1)
@@ -9302,17 +12492,33 @@
 		)
 	)
 	(symbol
-		(lib_id "ProjectEV_Power:VCC3")
-		(at 373.38 139.7 90)
+		(lib_id "ProjectEV_Resistor:R_1608M")
+		(at 238.76 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "670b8c12-e817-49e2-b556-ea6faaf4003d")
-		(property "Reference" "#PWR027"
-			(at 377.19 139.7 0)
+		(uuid "68bb4773-106c-4e05-854a-c1d513eb2bb5")
+		(property "Reference" "R31"
+			(at 238.76 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 238.76 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectEV_Resistor:R_1608M"
+			(at 238.76 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9320,17 +12526,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC3"
-			(at 369.57 139.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 373.38 139.7 0)
+		(property "Datasheet" "~"
+			(at 238.76 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9338,8 +12535,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 373.38 139.7 0)
+		(property "Description" ""
+			(at 238.76 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9347,22 +12544,24 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC3\""
-			(at 373.38 139.7 0)
+		(property "Package" "1608"
+			(at 238.76 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "c70c4a94-4d4f-47de-86fe-99848f390e6f")
 		)
 		(pin "1"
-			(uuid "15ee435a-017b-45b3-a728-d09b0e74158a")
+			(uuid "f5d18893-c03d-4100-8cb2-583143e1dbb2")
 		)
 		(instances
 			(project "accel-brake-sig-converter-board"
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
-					(reference "#PWR027")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -9593,6 +12792,82 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectEV_Resistor:R_1608M")
+		(at 254 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6da5f698-fef9-4685-adb9-9cb61f1046b5")
+		(property "Reference" "R33"
+			(at 254 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 254 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectEV_Resistor:R_1608M"
+			(at 254 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608"
+			(at 254 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d22f4cd5-a1d5-48f7-9405-abdd5e3e7f7d")
+		)
+		(pin "1"
+			(uuid "ce751de9-e616-47b4-ac31-b2d1bf15632e")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectEV_Power:GND2")
 		(at 48.26 218.44 0)
 		(unit 1)
@@ -9654,6 +12929,102 @@
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "#PWR032")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Opamp:NCV20072DR2G")
+		(at 269.24 152.4 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f9f27c6-c55d-4eb9-a039-1a1c34c017ca")
+		(property "Reference" "U6"
+			(at 269.24 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCV20072DR2G"
+			(at 269.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectEV_Opamp:NCV20072DR2G"
+			(at 269.24 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser番号" "863-NCV20072DR2G"
+			(at 269.24 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9cbca4df-3be2-44ee-b20b-c2a1d92450fb")
+		)
+		(pin "3"
+			(uuid "bda819f6-0f4a-4694-a7d2-eea528a29fe7")
+		)
+		(pin "6"
+			(uuid "e4ebbd45-5093-43da-87c7-9f0eba7c959a")
+		)
+		(pin "4"
+			(uuid "7294b147-b926-4a63-9252-52e7af5bee82")
+		)
+		(pin "8"
+			(uuid "a5f2d724-4b42-40fc-bf0e-8d4581e8c6f3")
+		)
+		(pin "1"
+			(uuid "9f7bb326-7586-4780-8486-2f9b79e9edb5")
+		)
+		(pin "2"
+			(uuid "78073dde-7f44-4035-aca1-746eae662212")
+		)
+		(pin "7"
+			(uuid "762bca76-6096-448e-af01-d4d57f2ac821")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "U6")
+					(unit 2)
 				)
 			)
 		)
@@ -9804,6 +13175,85 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectEV_Resistor:R_1608M")
+		(at 370.84 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7804eeee-6878-4bfe-b65a-667d418c2756")
+		(property "Reference" "R24"
+			(at 372.11 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 372.11 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectEV_Resistor:R_1608M"
+			(at 369.062 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 370.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 370.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608"
+			(at 372.11 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "3094b65c-3d33-4635-8830-885ec03dd6b3")
+		)
+		(pin "1"
+			(uuid "f37e2935-f6fd-49e3-b1ce-c385ac18f2f4")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectEV_Power:GND3")
 		(at 58.42 218.44 0)
 		(unit 1)
@@ -9864,6 +13314,178 @@
 			(project "accel-brake-sig-converter-board"
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Opamp:NCV20072DR2G")
+		(at 254 139.7 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c2eafe1-b377-4439-945a-86973abead4c")
+		(property "Reference" "U6"
+			(at 254 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCV20072DR2G"
+			(at 254 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectEV_Opamp:NCV20072DR2G"
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser番号" "863-NCV20072DR2G"
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "88762721-9fa8-461e-a2c9-6470ec09607b")
+		)
+		(pin "3"
+			(uuid "8e1f7d58-ab3a-4211-a1eb-aa669ddef91b")
+		)
+		(pin "6"
+			(uuid "6623a133-61ea-4239-a1cc-f1e98ae63a74")
+		)
+		(pin "4"
+			(uuid "7294b147-b926-4a63-9252-52e7af5bee83")
+		)
+		(pin "8"
+			(uuid "a5f2d724-4b42-40fc-bf0e-8d4581e8c6f4")
+		)
+		(pin "1"
+			(uuid "c472b8be-5c3c-4e5c-870b-cb50604774ab")
+		)
+		(pin "2"
+			(uuid "90fc7e78-7cd9-45c1-b01a-eec346bd9c7b")
+		)
+		(pin "7"
+			(uuid "9f635a72-0708-4692-9879-bde71e35fb34")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Resistor:R_1608M")
+		(at 254 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e95b776-dce5-4976-a156-3419c915aee5")
+		(property "Reference" "R28"
+			(at 254 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 254 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectEV_Resistor:R_1608M"
+			(at 254 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608"
+			(at 254 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "db6b032d-97e1-4c40-8880-8aac06954f62")
+		)
+		(pin "1"
+			(uuid "f47e77c6-9074-4804-9eeb-e8003e96eeac")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -9997,6 +13619,139 @@
 			(project ""
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:GND3")
+		(at 233.68 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "817aed9e-2bff-4046-8321-0934a6f71172")
+		(property "Reference" "#PWR056"
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 229.87 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 233.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77b2d332-f38d-451c-a954-f2de6af261e7")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:GND3")
+		(at 360.68 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81a5a926-459c-4ce9-ad52-45a22ff49c73")
+		(property "Reference" "#PWR060"
+			(at 360.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 360.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 360.68 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3846cc30-d54c-46a6-bf15-5775d3358cb1")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -10218,6 +13973,72 @@
 			(project "accel-brake-sig-converter-board"
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:GND2")
+		(at 304.8 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a653a63-b00c-4ae6-be8a-b6e70f0686d3")
+		(property "Reference" "#PWR052"
+			(at 304.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 304.8 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 304.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7f3b802-0b9d-4fc2-86cf-6bae33750c53")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -10511,28 +14332,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "88762721-9fa8-461e-a2c9-6470ec096077")
+			(uuid "88762721-9fa8-461e-a2c9-6470ec09607c")
 		)
 		(pin "3"
-			(uuid "bda819f6-0f4a-4694-a7d2-eea528a29fe3")
+			(uuid "bda819f6-0f4a-4694-a7d2-eea528a29fe8")
 		)
 		(pin "6"
-			(uuid "6623a133-61ea-4239-a1cc-f1e98ae63a70")
+			(uuid "6623a133-61ea-4239-a1cc-f1e98ae63a75")
 		)
 		(pin "4"
-			(uuid "7294b147-b926-4a63-9252-52e7af5bee7e")
+			(uuid "7294b147-b926-4a63-9252-52e7af5bee84")
 		)
 		(pin "8"
-			(uuid "a5f2d724-4b42-40fc-bf0e-8d4581e8c6ef")
+			(uuid "a5f2d724-4b42-40fc-bf0e-8d4581e8c6f5")
 		)
 		(pin "1"
-			(uuid "9f7bb326-7586-4780-8486-2f9b79e9edb1")
+			(uuid "9f7bb326-7586-4780-8486-2f9b79e9edb6")
 		)
 		(pin "2"
-			(uuid "78073dde-7f44-4035-aca1-746eae66220e")
+			(uuid "78073dde-7f44-4035-aca1-746eae662213")
 		)
 		(pin "7"
-			(uuid "9f635a72-0708-4692-9879-bde71e35fb30")
+			(uuid "9f635a72-0708-4692-9879-bde71e35fb35")
 		)
 		(instances
 			(project ""
@@ -10683,6 +14504,170 @@
 			(project "accel-brake-sig-converter-board"
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Capacitor:C_1608M")
+		(at 284.48 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "938c3f3d-224a-4453-869e-e053559162f7")
+		(property "Reference" "C15"
+			(at 287.02 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 287.02 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectEV_Capacitor:C_1608M"
+			(at 285.4452 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 284.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608M"
+			(at 287.02 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "b9a40972-9665-4772-9afd-2678d58c1994")
+		)
+		(pin "2"
+			(uuid "ec6ae221-a879-47f2-a2ad-1255741a10d0")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Resistor:RT1206BRC07250RL")
+		(at 274.32 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "940a8961-b15b-46aa-b910-3bc0f32b3bd1")
+		(property "Reference" "R30"
+			(at 274.32 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RT1206BRC07250RL"
+			(at 274.32 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectEV_Resistor:RT1206BRC07250RL"
+			(at 274.32 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "3216"
+			(at 274.32 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser番号" "603-RT1206BRC07250RL"
+			(at 274.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6837f54-6552-4a45-b554-3f7dad5a8202")
+		)
+		(pin "2"
+			(uuid "ab911d11-8de1-406c-835a-7b6916c3bf1c")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -10841,7 +14826,7 @@
 		(dnp no)
 		(uuid "970a7bdb-2521-4df8-8aea-bf06b2a22162")
 		(property "Reference" "J6"
-			(at 383.54 140.9699 0)
+			(at 383.54 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10850,7 +14835,7 @@
 			)
 		)
 		(property "Value" "SM03B-PASS-TBT"
-			(at 383.54 143.5099 0)
+			(at 383.54 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10920,6 +14905,72 @@
 	)
 	(symbol
 		(lib_id "ProjectEV_Power:GND3")
+		(at 304.8 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "971e4fbe-2269-41d2-82d2-6ee6651d3cf1")
+		(property "Reference" "#PWR055"
+			(at 304.8 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 304.8 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 304.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ac52722-73e3-4ac9-af23-a6e5aa3957b8")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:GND3")
 		(at 68.58 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10979,6 +15030,72 @@
 			(project "accel-brake-sig-converter-board"
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:GND2")
+		(at 360.68 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c6a00ef-0510-4db7-a734-1d4f1e7a0d9b")
+		(property "Reference" "#PWR046"
+			(at 360.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 360.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 360.68 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d82efc25-fee1-4899-b185-8d853e66607c")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -11194,6 +15311,82 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectEV_Resistor:R_1608M")
+		(at 254 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a856b8e8-de2f-475f-8fc3-0a23af25d760")
+		(property "Reference" "R34"
+			(at 254 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 254 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectEV_Resistor:R_1608M"
+			(at 254 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608"
+			(at 254 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "db0d6e27-34e1-479e-9e71-8320f89b108b")
+		)
+		(pin "1"
+			(uuid "4c6ec479-4f93-484b-b072-4571354dc0a0")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectEV_Power:VCC2")
 		(at 373.38 88.9 90)
 		(unit 1)
@@ -11321,73 +15514,6 @@
 			(project "accel-brake-sig-converter-board"
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProjectEV_Power:GND3")
-		(at 373.38 142.24 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9508882-46e2-4cb3-86e7-85f482c33107")
-		(property "Reference" "#PWR028"
-			(at 367.03 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND3"
-			(at 369.57 142.2399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 373.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
-			(at 373.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04cbd30c-05b4-4a06-bbfe-5cf3be8013c8")
-		)
-		(instances
-			(project "accel-brake-sig-converter-board"
-				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11793,6 +15919,249 @@
 			(project "accel-brake-sig-converter-board"
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:GND1")
+		(at 38.1 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4163ffd-a464-4c46-aacd-5211b8f3d31d")
+		(property "Reference" "#PWR044"
+			(at 38.1 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 38.1 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b4f6558-db04-4889-b1b7-a90c05a658ac")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Opamp:NCV20072DR2G")
+		(at 302.26 157.48 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8b1354e-720d-4e45-a7a1-0293fd34a550")
+		(property "Reference" "U6"
+			(at 306.07 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NCV20072DR2G"
+			(at 306.07 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ProjectEV_Opamp:NCV20072DR2G"
+			(at 302.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 302.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser番号" "863-NCV20072DR2G"
+			(at 302.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "88762721-9fa8-461e-a2c9-6470ec09607d")
+		)
+		(pin "3"
+			(uuid "bda819f6-0f4a-4694-a7d2-eea528a29fe9")
+		)
+		(pin "6"
+			(uuid "6623a133-61ea-4239-a1cc-f1e98ae63a76")
+		)
+		(pin "4"
+			(uuid "aec6a6da-fed1-48cd-ab02-baa895b585a4")
+		)
+		(pin "8"
+			(uuid "ef86203e-d603-4257-9f8e-b61c72143d9a")
+		)
+		(pin "1"
+			(uuid "9f7bb326-7586-4780-8486-2f9b79e9edb7")
+		)
+		(pin "2"
+			(uuid "78073dde-7f44-4035-aca1-746eae662214")
+		)
+		(pin "7"
+			(uuid "9f635a72-0708-4692-9879-bde71e35fb36")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "U6")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Capacitor:C_1608M")
+		(at 294.64 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b96f0081-33f5-4d15-a219-f67687eab760")
+		(property "Reference" "C18"
+			(at 297.18 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 297.18 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectEV_Capacitor:C_1608M"
+			(at 295.6052 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608M"
+			(at 297.18 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "86ae9fd5-e72f-44e4-8c95-982c100c5f5a")
+		)
+		(pin "2"
+			(uuid "0d81c252-2773-43f3-87b7-587ffe348ef3")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -12219,6 +16588,72 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectEV_Power:GND3")
+		(at 381 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c19a36dc-edb9-42ec-a94b-8b704ba6b3ed")
+		(property "Reference" "#PWR057"
+			(at 381 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 381 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 381 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e650f35c-ff4d-41dc-867c-59f6473b8d2f")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectEV_Capacitor:C_1608M")
 		(at 127 144.78 0)
 		(unit 1)
@@ -12469,6 +16904,161 @@
 			(project ""
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Capacitor:C_1608M")
+		(at 360.68 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c8d3e19c-57e2-47a8-8d9e-ff9e90f3eef6")
+		(property "Reference" "C14"
+			(at 363.22 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 363.22 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectEV_Capacitor:C_1608M"
+			(at 361.6452 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608M"
+			(at 363.22 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "2e13b4b6-3eaf-44b8-b66d-5aa31a69ab72")
+		)
+		(pin "2"
+			(uuid "8ba42e8f-bdc0-46e7-bd5f-351cbca32bb1")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Resistor:R_1608M")
+		(at 254 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca477f88-6770-41cc-8f64-643ab8367adf")
+		(property "Reference" "R29"
+			(at 254 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 254 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectEV_Resistor:R_1608M"
+			(at 254 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608"
+			(at 254 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6b50f2df-211c-4f5a-aaea-2f380cd13992")
+		)
+		(pin "1"
+			(uuid "15ca4fb4-30a0-4f0e-b569-9ec824200e2f")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -12773,6 +17363,72 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectEV_Power:GND2")
+		(at 381 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d392ae81-243a-44ed-a57d-7887986febbe")
+		(property "Reference" "#PWR063"
+			(at 381 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 381 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 381 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c0f4b15-cb17-4c84-8e09-1b6807c48c54")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectEV_Resistor:R_1608M")
 		(at 167.64 55.88 0)
 		(unit 1)
@@ -12846,6 +17502,82 @@
 			(project "accel-brake-sig-converter-board"
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Resistor:R_1608M")
+		(at 238.76 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e10e3aeb-69c4-41ab-aae6-10e930913388")
+		(property "Reference" "R27"
+			(at 238.76 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 238.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectEV_Resistor:R_1608M"
+			(at 238.76 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608"
+			(at 238.76 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b3bf30c9-4a87-4e9d-aa40-9ad39aece80b")
+		)
+		(pin "1"
+			(uuid "1ba6634e-1202-4d28-883e-30e68b8fdecc")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -13055,6 +17787,85 @@
 			(project ""
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Capacitor:C_1608M")
+		(at 360.68 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "e78bbd69-ef1f-4085-a651-9d1948b464d2")
+		(property "Reference" "C19"
+			(at 363.22 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 363.22 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectEV_Capacitor:C_1608M"
+			(at 361.6452 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608M"
+			(at 363.22 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "456e0b34-cd35-4164-bbe5-68592a690ce0")
+		)
+		(pin "2"
+			(uuid "f896c5f4-25f3-4ce0-b7ca-e65d251bf7ed")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -13294,6 +18105,230 @@
 	)
 	(symbol
 		(lib_id "ProjectEV_Power:GND3")
+		(at 370.84 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed13f3bf-6bb9-4316-aa39-63dc90db1ffe")
+		(property "Reference" "#PWR059"
+			(at 370.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 370.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 370.84 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.84 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 370.84 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "552ead13-fe00-4352-aee8-4841f1a13245")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Resistor:R_1608M")
+		(at 370.84 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed8d2781-b215-4dd7-8649-2e34bb897634")
+		(property "Reference" "R25"
+			(at 372.11 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 372.11 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectEV_Resistor:R_1608M"
+			(at 369.062 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 370.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 370.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608"
+			(at 372.11 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "cf6bfca7-4e14-4897-a3e4-e4dfe25ac124")
+		)
+		(pin "1"
+			(uuid "d659e668-5288-4417-99da-f59fe9c975c6")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Capacitor:C_1608M")
+		(at 360.68 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ee680b05-b5d4-4d28-b9fa-7b48d0ac7fed")
+		(property "Reference" "C13"
+			(at 363.22 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 363.22 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectEV_Capacitor:C_1608M"
+			(at 361.6452 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608M"
+			(at 363.22 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "298f58dd-cbd9-4632-876d-c0232133d232")
+		)
+		(pin "2"
+			(uuid "6837ec39-f3c0-4c16-9a47-410d5f2dca9b")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:GND3")
 		(at 142.24 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13353,6 +18388,151 @@
 			(project "accel-brake-sig-converter-board"
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Resistor:R_1608M")
+		(at 370.84 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f09f4bf6-6eaa-49ed-ac59-6d6800099350")
+		(property "Reference" "R35"
+			(at 372.11 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 372.11 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectEV_Resistor:R_1608M"
+			(at 369.062 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 370.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 370.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608"
+			(at 372.11 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "3f40116f-d1a1-4e6e-9be8-2b446ae14649")
+		)
+		(pin "1"
+			(uuid "e86a1ae5-d776-43f8-8399-3bd4d0a08aac")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:GND1")
+		(at 370.84 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0db8187-4ddf-4f3e-b7e6-bacbf64143db")
+		(property "Reference" "#PWR041"
+			(at 370.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 370.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 370.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 370.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "559ba7b6-783b-4947-8012-2751f2ecd55b")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -13429,6 +18609,73 @@
 			(project "accel-brake-sig-converter-board"
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:GND3")
+		(at 373.38 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f37b3890-5ec6-45f2-be10-d8d74ba1a603")
+		(property "Reference" "#PWR058"
+			(at 367.03 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 369.57 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 373.38 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e11c82d-ab27-4231-88ba-f07d27cd888c")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -13725,6 +18972,151 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectEV_Capacitor:C_1608M")
+		(at 284.48 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f60cba28-ca80-49e1-88aa-c5be152be091")
+		(property "Reference" "C17"
+			(at 287.02 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 287.02 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectEV_Capacitor:C_1608M"
+			(at 285.4452 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 284.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608M"
+			(at 287.02 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "c8a1fcb8-dc12-4374-beed-9b7d5f3cb21c")
+		)
+		(pin "2"
+			(uuid "0bc92ded-6336-49b3-b614-5177613f71a3")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:GND1")
+		(at 381 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8561294-4e18-40d5-af9a-201cffd1467b")
+		(property "Reference" "#PWR061"
+			(at 381 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 381 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 381 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04d6930d-af2c-4f63-85d5-18dc3df114e2")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectEV_Mechanical:MountingHole_3.2mm_M3_Pad_Via")
 		(at 152.4 190.5 0)
 		(unit 1)
@@ -13786,6 +19178,72 @@
 			(project "accel-brake-sig-converter-board"
 				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectEV_Power:GND1")
+		(at 381 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb99e187-6bb0-43da-8e8b-5bc6475b1c2c")
+		(property "Reference" "#PWR062"
+			(at 381 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 381 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 381 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05d8567a-675a-4b9c-adda-eb67a2b29293")
+		)
+		(instances
+			(project "accel-brake-sig-converter-board"
+				(path "/b61bdbac-a671-44ff-8f7c-190c23ffbe3f"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
