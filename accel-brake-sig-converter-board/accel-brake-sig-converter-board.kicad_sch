@@ -2951,7 +2951,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "3216"
+			(property "Package" "3216M"
 				(at 3.81 -2.54 0)
 				(effects
 					(font
@@ -3107,7 +3107,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "1608"
+			(property "Package" "1608M"
 				(at 3.81 -1.27 0)
 				(effects
 					(font
@@ -3254,7 +3254,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "3216"
+			(property "Package" "3216M"
 				(at 3.81 -1.27 0)
 				(effects
 					(font
@@ -8033,7 +8033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 69.85 157.4799 0)
 			(effects
 				(font
@@ -8110,7 +8110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 254 22.86 90)
 			(effects
 				(font
@@ -8399,7 +8399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "3216"
+		(property "Package" "3216M"
 			(at 39.37 203.1999 0)
 			(effects
 				(font
@@ -8476,7 +8476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 238.76 149.86 90)
 			(effects
 				(font
@@ -8552,7 +8552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 53.34 213.36 90)
 			(effects
 				(font
@@ -9438,7 +9438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 162.56 160.02 90)
 			(effects
 				(font
@@ -9823,7 +9823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 179.07 96.5199 0)
 			(effects
 				(font
@@ -9902,7 +9902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 105.41 45.7199 0)
 			(effects
 				(font
@@ -10205,7 +10205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 179.07 147.3199 0)
 			(effects
 				(font
@@ -10282,7 +10282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 162.56 58.42 90)
 			(effects
 				(font
@@ -11159,7 +11159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "3216"
+		(property "Package" "3216M"
 			(at 274.32 35.56 90)
 			(effects
 				(font
@@ -11244,7 +11244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 238.76 73.66 90)
 			(effects
 				(font
@@ -11638,7 +11638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 69.85 55.8799 0)
 			(effects
 				(font
@@ -11956,7 +11956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "3216"
+		(property "Package" "3216M"
 			(at 274.32 137.16 90)
 			(effects
 				(font
@@ -12043,7 +12043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 69.85 106.6799 0)
 			(effects
 				(font
@@ -12816,7 +12816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 168.91 109.2199 0)
 			(effects
 				(font
@@ -12960,7 +12960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 238.76 124.46 90)
 			(effects
 				(font
@@ -13326,7 +13326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 254 124.46 90)
 			(effects
 				(font
@@ -13711,7 +13711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 372.11 50.7999 0)
 			(effects
 				(font
@@ -13950,7 +13950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 254 73.66 90)
 			(effects
 				(font
@@ -14437,7 +14437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 43.18 213.36 90)
 			(effects
 				(font
@@ -15123,7 +15123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "3216"
+		(property "Package" "3216M"
 			(at 274.32 86.36 90)
 			(effects
 				(font
@@ -15208,7 +15208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 238.76 48.26 90)
 			(effects
 				(font
@@ -15835,7 +15835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 238.76 22.86 90)
 			(effects
 				(font
@@ -16043,7 +16043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 254 149.86 90)
 			(effects
 				(font
@@ -16254,7 +16254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 168.91 160.0199 0)
 			(effects
 				(font
@@ -16333,7 +16333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 179.07 45.7199 0)
 			(effects
 				(font
@@ -16412,7 +16412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 105.41 96.5199 0)
 			(effects
 				(font
@@ -16580,7 +16580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 105.41 147.3199 0)
 			(effects
 				(font
@@ -17730,7 +17730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 254 99.06 90)
 			(effects
 				(font
@@ -18238,7 +18238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 168.91 58.4199 0)
 			(effects
 				(font
@@ -18315,7 +18315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 238.76 99.06 90)
 			(effects
 				(font
@@ -18844,7 +18844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 162.56 109.22 90)
 			(effects
 				(font
@@ -18988,7 +18988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 372.11 101.5999 0)
 			(effects
 				(font
@@ -19212,7 +19212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 372.11 152.3999 0)
 			(effects
 				(font
@@ -19355,7 +19355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608"
+		(property "Package" "1608M"
 			(at 254 48.26 90)
 			(effects
 				(font
