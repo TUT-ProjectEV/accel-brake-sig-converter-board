@@ -286,7 +286,7 @@
 		(path "/8e3d3bad-8bbe-4630-a839-f59348c4f6b9")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.55 -1.95)
 			(end -2.55 3.5)
@@ -1088,7 +1088,7 @@
 		(path "/16abd064-493f-4f08-a9eb-f47d1af2393e")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.75 1.55)
 			(end 0.75 0.6)
@@ -1803,7 +1803,7 @@
 		(path "/6be65659-9e75-4dd1-b78f-925ca1969821")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -1.35 -0.6)
@@ -2034,7 +2034,7 @@
 		(path "/57b9e8f7-fe5a-4169-aaa1-cf832b6477c7")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.727064 0.91)
 			(end 0.727064 0.91)
@@ -2256,7 +2256,7 @@
 		(path "/c7f7f1af-407a-44e7-ac7e-1a435286c7ae")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.8 -0.85)
 			(end -1.8 -0.45)
@@ -2525,7 +2525,7 @@
 		(path "/530682c5-6b31-4b62-a22c-334e7e81c39d")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -1.35 -0.6)
@@ -3190,7 +3190,7 @@
 		(path "/37efd3c3-3347-4811-90b8-6ca160bff689")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.55 -0.65)
 			(end 1.55 0.65)
@@ -3595,7 +3595,7 @@
 		(path "/f3a5e286-b4c1-4e02-ac45-97e08c60454d")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.8 1)
 			(end 1.5 1)
@@ -3762,7 +3762,7 @@
 		(path "/cdea263c-bb8e-4175-86fd-4828e0c54e65")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 5.1 -4.55)
 			(end 5.1 -1.9)
@@ -4051,7 +4051,7 @@
 		(path "/970a7bdb-2521-4df8-8aea-bf06b2a22162")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 5.1 -4.55)
 			(end 5.1 -1.9)
@@ -4343,7 +4343,7 @@
 		(path "/92b2468c-5307-4146-8be5-52282c9f604e")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -1.35 -0.6)
@@ -4899,7 +4899,7 @@
 		(path "/e4561c88-fad9-4128-bb84-f1a5345306e8")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.2 0.5)
 			(end -0.2 0.5)
@@ -5278,7 +5278,7 @@
 		(path "/34d7a546-d3bd-47e6-af92-bf76fb981511")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.55 -0.65)
 			(end 1.55 0.65)
@@ -5459,7 +5459,7 @@
 		(path "/55650c8d-eb91-43fa-9ddb-458e21087204")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.55 -0.65)
 			(end 1.55 0.65)
@@ -6088,7 +6088,7 @@
 		(path "/e8b2902d-ce74-431d-bb0b-f2db3e125702")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 5.1 -4.55)
 			(end 5.1 -1.9)
@@ -6377,7 +6377,7 @@
 		(path "/5aa0e8b5-2918-4079-ab79-7896a0e6f6a9")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.55 -1.95)
 			(end -2.55 3.5)
@@ -8119,7 +8119,7 @@
 		(path "/5dd7a507-2296-478c-ad2d-18013c0b9442")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.2 0.5)
 			(end -0.2 0.5)
@@ -8501,7 +8501,7 @@
 		(path "/c075b233-ae9f-4fd2-a382-1ac1a1d8a782")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -1.35 -0.6)
@@ -8718,7 +8718,7 @@
 		(path "/8d1195cd-7909-4a76-b6f1-e0b851b9a4f1")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 5.1 -4.55)
 			(end 5.1 -1.9)
@@ -9778,7 +9778,7 @@
 		(path "/b22d2bd3-2597-4251-a01b-2a25c00e02f4")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 5.1 -4.55)
 			(end 5.1 -1.9)
@@ -10282,7 +10282,7 @@
 		(path "/036f67d2-32f5-42eb-a025-2803070f6bd3")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -1.35 -0.6)
@@ -10724,7 +10724,7 @@
 		(path "/c2e2b4d8-a4a1-4cbf-8b32-4c7f432032e3")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.75 1.55)
 			(end 0.75 0.6)
@@ -11439,7 +11439,7 @@
 		(path "/87940664-4d65-4338-869b-2fa3c658892d")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -1.35 -0.6)
@@ -11672,7 +11672,7 @@
 		(path "/bb8914bb-ee76-4d5a-85dd-76e3da43b03e")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.2 0.5)
 			(end -0.2 0.5)
@@ -13155,7 +13155,7 @@
 		(path "/12c902b4-8a5c-4a32-8f1a-cec6f97370ac")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 5.1 -4.55)
 			(end 5.1 -1.9)
@@ -14578,7 +14578,7 @@
 		(path "/4042943d-6d4f-4dd4-908a-bdef2f3d1e15")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.727064 0.91)
 			(end 0.727064 0.91)
@@ -15026,7 +15026,7 @@
 		(path "/5b728b44-f112-4f62-8d93-0b592074d808")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.75 1.55)
 			(end 0.75 0.6)
@@ -15290,7 +15290,7 @@
 		(path "/0cf94542-b7af-4027-8e8f-65b3a83f24bd")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.8 1)
 			(end 1.5 1)
@@ -15905,7 +15905,7 @@
 		(path "/771a5123-371f-4181-832e-d63e01eefca3")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.8 1)
 			(end 1.5 1)
@@ -17852,7 +17852,7 @@
 		(path "/7c2eafe1-b377-4439-945a-86973abead4c")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.55 -1.95)
 			(end -2.55 3.5)
@@ -19215,7 +19215,7 @@
 		(path "/3fb1c946-e0a4-467f-b06b-0bb9dbfbf5ee")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.8 -0.85)
 			(end -1.8 -0.45)
@@ -20485,7 +20485,7 @@
 		(path "/44c2a334-2240-4462-b0e3-7e2c25ed233f")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.8 -0.85)
 			(end -1.8 -0.45)
@@ -20989,7 +20989,7 @@
 		(path "/940a8961-b15b-46aa-b910-3bc0f32b3bd1")
 		(sheetname "ルート")
 		(sheetfile "accel-brake-sig-converter-board.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.727064 0.91)
 			(end 0.727064 0.91)
