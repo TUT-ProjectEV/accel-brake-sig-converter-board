@@ -1,4 +1,4 @@
-24022656649341625
+24024380512332044
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86477,6 +86477,13 @@ PinHeader_2x05_P1.00mm_Vertical
 0
 10
 10
+ProjectEV_PinSocket
+PinSocket_1x06_P2.54mm_Horizontal
+
+
+0
+6
+6
 ProjectEV_PowerManagement
 LM76202QPWPRQ1
 
