@@ -1,5 +1,8 @@
 # accel-brake-sig-converter-board
 
+## Revision
+- v1.0
+
 ## Overview
 - This board converts the sensor output VOLTAGE signal into the CURRENT signal
     - 4~20mA
