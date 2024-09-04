@@ -1,7 +1,7 @@
 # accel-brake-sig-converter-board
 
 ## Overview
-- センサの出力信号(電圧)を電流信号に変換
+- This board converts the sensor output VOLTAGE signal into the CURRENT signal
     - 4~20mA
 
 ## Requirement
@@ -12,20 +12,26 @@
     - v8.0
 
 ## Usage
-- 
+- J1, J2, J3: Connect to Controller or ADC and Power supply
+    - Pin 1: +12V Input
+    - Pin 2: GND
+    - Pin 3: Current Signal Output
+    - Connect 250 Ohms between Pin 2 and Pin 3
+- J4, J5, J6: Connect to Sensor
+    - Pin 1: +5V Output
+    - Pin 2: GND
+    - Pin 3: Voltage Signal Input
 
 ## Features
-- 動作電源: 12V
-- センサ用電源出力: 5V
-- 入力信号電圧: 1~5V
-- 出力信号電流: 4~20mA
-    - 250Ωで終端
+- Input Signal Voltage Range: +1~+5V
+- Output Signal Current Range: 4~20mA
+    - 250 Ohms termination
 
 ## Reference
 - ["Reference Site Name"]("Reference URL")
 
 ## Author
-- [ST04-tkmr]("Your GitHub, Twitter, etc... Account URL")
+- [ST04-tkmr](https://github.com/ST04-tkmr)
 
 ## License
 - Copyright (c) 2024 東京工科大学 ProjectEV
