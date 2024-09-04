@@ -16,7 +16,6 @@
     - Pin 1: +12V Input
     - Pin 2: GND
     - Pin 3: Current Signal Output
-    - Connect 250 Ohms between Pin 2 and Pin 3
 - J4, J5, J6: Connect to Sensor
     - Pin 1: +5V Output
     - Pin 2: GND
@@ -25,7 +24,7 @@
 ## Features
 - Input Signal Voltage Range: +1~+5V
 - Output Signal Current Range: 4~20mA
-    - 250 Ohms termination
+    - 250 Ohms termination: +1~+5V
 
 ## Reference
 - ["Reference Site Name"]("Reference URL")
